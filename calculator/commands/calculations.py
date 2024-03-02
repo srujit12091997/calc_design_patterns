@@ -1,6 +1,6 @@
 # calculations.py
 from typing import List
-from .calculation import Calculation
+from calculator.calculation import Calculation
 
 class Calculations:
     history: List[Calculation] = []

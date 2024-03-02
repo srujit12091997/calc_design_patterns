@@ -3,7 +3,7 @@
 import pytest
 from decimal import Decimal
 from calculator.calculation import Calculation
-from calculator.calculations import Calculations
+from calculator.commands.calculations import Calculations
 from calculator.operations import add, subtract
 
 @pytest.fixture
