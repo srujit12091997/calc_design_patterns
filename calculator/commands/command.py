@@ -2,9 +2,9 @@
 from abc import ABC, abstractmethod
 from typing import Any
 from decimal import Decimal
-from .calculations import Calculations
-from .calculation import Calculation
-from .operations import add, subtract, multiply, divide
+from calculator.commands.calculations import Calculations
+from calculator.calculation import Calculation
+from calculator.operations import add, subtract, multiply, divide
 
 
 class Command(ABC):
