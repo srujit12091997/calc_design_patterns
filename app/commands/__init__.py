@@ -25,6 +25,7 @@ class PrintCommand(Command):
         for arg in args:
             print(f"Additional argument: {arg}")
 
+'''
 # Example Usage
 if __name__ == "__main__":
     handler = CommandHandler()
@@ -33,3 +34,4 @@ if __name__ == "__main__":
 
     # Execute the command with positional and keyword arguments
     handler.execute_command('print', "An example argument", message="This is a test message.")
+'''
